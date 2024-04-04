@@ -3,7 +3,7 @@
      * 4Apr2024
      * SDev 328
      */
-    echo "<p>Thank you $_POST[name], for your order!</p>
+    echo "<p>Thank you, $_POST[name], for your order!</p>
           <p>Order Summary:</p>
           <ul>";
     $flavors = $_POST['flavor'];
