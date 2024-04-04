@@ -10,7 +10,7 @@
     $total = 0;
     foreach($flavors as $flavor)
     {
-        echo "<li>$flavor</li>";
+        echo '<li>$flavor</li>';
         $total += 3.50;
     }
     echo"</ul>
